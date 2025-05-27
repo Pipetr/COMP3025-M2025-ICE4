@@ -1,17 +1,5 @@
 <resources>
     <string name="app_name">ICE4</string>
-    <string name="welcome">Welcome</string>
-    <string name="start">Start</string>
-    <string name="username">Username</string>
-    <string name="enter_username">Enter username</string>
-    <string name="login">Login</string>
-    <string name="password_label">Password:</string>
-    <string name="overlay_text">Overlay Text</string>
-    <string name="pink_background">Pink background</string>
-    <string name="button_1">Button 1</string>
-    <string name="button_2">Button 2</string>
-    <string name="button_3">Button 3</string>
-    <string name="button_4">Button 4</string>
     <string name="result_default">0</string>
     <string name="percent_button_text">\u0025</string>
     <string name="clear_button_text">\u0043</string>
