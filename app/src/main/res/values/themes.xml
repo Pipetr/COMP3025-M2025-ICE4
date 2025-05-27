@@ -18,6 +18,13 @@
         <item name="cornerRadius">@dimen/button_corner_radius</item>
     </style>
 
+    <!-- TODO:
+    Add here the style, inheriting from original -->
+
+    <style name="CalculatorButtonStyleLand" parent="Widget.Material3.Button">
+
+    </style>
+
     <style name="NumbersButtonStyle" parent="CalculatorButtonStyle">
         <item name="android:backgroundTint">@color/genButtonColor</item>
         <item name="android:textColor">@color/black</item>
