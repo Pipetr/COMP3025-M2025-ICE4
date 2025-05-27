@@ -5,5 +5,5 @@
     </style>
 
     <!-- Public app theme -->
-    <style name="Theme.ICE3" parent="Base.Theme.ICE4" />
+    <style name="Theme.ICE4" parent="Base.Theme.ICE4" />
 </resources>

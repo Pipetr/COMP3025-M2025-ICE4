@@ -6,7 +6,6 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/material_dynamic_neutral30"
-    android:tag="clear"
     tools:context=".MainActivity">
 
 
@@ -76,6 +75,7 @@
             android:backgroundTint="@color/bright_orange"
             android:fontFamily="@font/fa_solid_900"
             android:padding="@dimen/zero"
+            android:tag="clear"
             android:text="@string/clear_button_text"
             android:textSize="@dimen/button_text_size"
             app:cornerRadius="@dimen/button_corner_radius"

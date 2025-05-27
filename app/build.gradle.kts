@@ -4,7 +4,7 @@ plugins {
 }
 
 android {
-    namespace = "ca.georgiancollge.ice4"
+    namespace = "ca.georgiancollege.ice4"
     compileSdk = 35
 
     defaultConfig {
