@@ -38,7 +38,7 @@ class MainActivity : AppCompatActivity()
             binding.plusButton, binding.minusButton,
             binding.multiplyButton, binding.divideButton
         )
-        val modifierButtons = listOf(
+        modifierButtons = listOf(
             binding.percentButton, binding.plusMinusButton,
             binding.clearButton, binding.deleteButton
         )
