@@ -53,23 +53,23 @@
 
         <Button
             android:id="@+id/percentButton"
-            style="@style/CalculatorButtonStyle"
-            android:backgroundTint="@color/bright_orange"
+            style="@style/ModifiersButtonStyle"
+
             android:tag="percent"
             android:text="@string/percent_button_text"
             tools:ignore="ButtonStyle,TextContrastCheck,TextContrastCheck,TextContrastCheck,TextSizeCheck" />
 
         <Button
             android:id="@+id/clearButton"
-            style="@style/CalculatorButtonStyle"
-            android:backgroundTint="@color/bright_orange"
+            style="@style/ModifiersButtonStyle"
+
             android:tag="clear"
             android:text="@string/clear_button_text"
             tools:ignore="ButtonStyle,TextContrastCheck,TextSizeCheck" />
 
         <Button
             android:id="@+id/deleteButton"
-            style="@style/CalculatorButtonStyle"
+            style="@style/ModifiersButtonStyle"
 
             android:tag="backspace"
             android:text="@string/delete_button_text"
@@ -78,7 +78,7 @@
         <Button
             android:id="@+id/divideButton"
             style="@style/OperatorsButtonStyle"
-            android:backgroundTint="@color/burnt_orange"
+
             android:tag="divide"
             android:text="@string/divide_button_text"
             tools:ignore="ButtonStyle,TextSizeCheck" />
@@ -97,35 +97,35 @@
 
         <Button
             android:id="@+id/sevenButton"
-            style="@style/CalculatorButtonStyle"
-            android:backgroundTint="@color/light_grey"
+            style="@style/NumbersButtonStyle"
+
             android:tag="7"
             android:text="@string/seven_button_text"
-            android:textColor="@color/black"
+
             tools:ignore="ButtonStyle,TextSizeCheck" />
 
         <Button
             android:id="@+id/eightButton"
-            style="@style/CalculatorButtonStyle"
-            android:backgroundTint="@color/light_grey"
+            style="@style/NumbersButtonStyle"
+
             android:tag="8"
             android:text="@string/eight_button_text"
-            android:textColor="@color/black"
+
             tools:ignore="ButtonStyle,TextSizeCheck" />
 
         <Button
             android:id="@+id/nineButton"
-            style="@style/CalculatorButtonStyle"
-            android:backgroundTint="@color/light_grey"
+            style="@style/NumbersButtonStyle"
+
             android:tag="9"
             android:text="@string/nine_button_text"
-            android:textColor="@color/black"
+
             tools:ignore="ButtonStyle,TextSizeCheck" />
 
         <Button
             android:id="@+id/multiplyButton"
             style="@style/OperatorsButtonStyle"
-            android:backgroundTint="@color/burnt_orange"
+
             android:tag="multiply"
             android:text="@string/multiply_button_text"
             tools:ignore="ButtonStyle,TextSizeCheck" />
@@ -144,35 +144,35 @@
 
         <Button
             android:id="@+id/fourButton"
-            style="@style/CalculatorButtonStyle"
-            android:backgroundTint="@color/light_grey"
+            style="@style/NumbersButtonStyle"
+
             android:tag="4"
             android:text="@string/four_button_text"
-            android:textColor="@color/black"
+
             tools:ignore="ButtonStyle,TextSizeCheck" />
 
         <Button
             android:id="@+id/fiveButton"
-            style="@style/CalculatorButtonStyle"
-            android:backgroundTint="@color/light_grey"
+            style="@style/NumbersButtonStyle"
+
             android:tag="5"
             android:text="@string/five_button_text"
-            android:textColor="@color/black"
+
             tools:ignore="ButtonStyle,TextSizeCheck" />
 
         <Button
             android:id="@+id/sixButton"
-            style="@style/CalculatorButtonStyle"
-            android:backgroundTint="@color/light_grey"
+            style="@style/NumbersButtonStyle"
+
             android:tag="6"
             android:text="@string/six_button_text"
-            android:textColor="@color/black"
+
             tools:ignore="ButtonStyle,TextSizeCheck" />
 
         <Button
             android:id="@+id/minusButton"
             style="@style/OperatorsButtonStyle"
-            android:backgroundTint="@color/burnt_orange"
+
             android:tag="subtract"
             android:text="@string/minus_button_text"
             tools:ignore="ButtonStyle,TextSizeCheck" />
@@ -190,35 +190,35 @@
 
         <Button
             android:id="@+id/oneButton"
-            style="@style/CalculatorButtonStyle"
-            android:backgroundTint="@color/light_grey"
+            style="@style/NumbersButtonStyle"
+
             android:tag="1"
             android:text="@string/one_button_text"
-            android:textColor="@color/black"
+
             tools:ignore="ButtonStyle,TextSizeCheck" />
 
         <Button
             android:id="@+id/twoButton"
-            style="@style/CalculatorButtonStyle"
-            android:backgroundTint="@color/light_grey"
+            style="@style/NumbersButtonStyle"
+
             android:tag="2"
             android:text="@string/two_button_text"
-            android:textColor="@color/black"
+
             tools:ignore="ButtonStyle,TextSizeCheck" />
 
         <Button
             android:id="@+id/threeButton"
-            style="@style/CalculatorButtonStyle"
-            android:backgroundTint="@color/light_grey"
+            style="@style/NumbersButtonStyle"
+
             android:tag="3"
             android:text="@string/three_button_text"
-            android:textColor="@color/black"
+
             tools:ignore="ButtonStyle,TextSizeCheck" />
 
         <Button
             android:id="@+id/plusButton"
             style="@style/OperatorsButtonStyle"
-            android:backgroundTint="@color/burnt_orange"
+
             android:tag="add"
             android:text="@string/plus_button_text"
             tools:ignore="ButtonStyle,TextSizeCheck" />
@@ -237,35 +237,35 @@
 
         <Button
             android:id="@+id/plusMinusButton"
-            style="@style/CalculatorButtonStyle"
-            android:backgroundTint="@color/bright_orange"
+            style="@style/ModifiersButtonStyle"
+
             android:tag="plus_equals"
             android:text="@string/plus_minus_button_text"
             tools:ignore="ButtonStyle,TextContrastCheck,TextSizeCheck" />
 
         <Button
             android:id="@+id/zeroButton"
-            style="@style/CalculatorButtonStyle"
-            android:backgroundTint="@color/light_grey"
+            style="@style/NumbersButtonStyle"
+
             android:tag="0"
             android:text="@string/zero_button_text"
-            android:textColor="@color/black"
+
             tools:ignore="ButtonStyle,DuplicateSpeakableTextCheck,TextSizeCheck" />
 
         <Button
             android:id="@+id/decimalButton"
-            style="@style/CalculatorButtonStyle"
+            style="@style/NumbersButtonStyle"
             android:layout_height="@dimen/button_layout_height"
-            android:backgroundTint="@color/light_grey"
+
             android:tag="."
             android:text="@string/decimal_button_text"
-            android:textColor="@color/black"
+
             tools:ignore="ButtonStyle,TextSizeCheck" />
 
         <Button
             android:id="@+id/equalsButton"
             style="@style/EqualsButtonStyle"
-            android:backgroundTint="@color/burnt_orange"
+
             android:tag="equals"
             android:text="@string/equals_button_text"
             tools:ignore="ButtonStyle,TextSizeCheck" />
