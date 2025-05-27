@@ -51,18 +51,25 @@ class MainActivity : AppCompatActivity()
     private fun configureNumberInput()
     {
         numberButtons.forEach { button ->
-            // for each button in the numberButtons list set an On click listener
             button.setOnClickListener {
-                // display the number pressed in the resultEditText
+                // capture input from the button
+                val input = button.text.toString()
+                // capture the text in the resultEditText
                 val currentResultText = binding.resultEditText.text.toString()
-                // If the current result is "0", replace it with the new number
-                if (currentResultText == "0")
+
+                // Prevent multiple decimal points in the current number
+                if (input == "." && currentResultText.contains("."))
                 {
-                    binding.resultEditText.setText(button.text)
+                    return@setOnClickListener // Do nothing if a decimal already exists
                 }
-                else // Otherwise, append the new number to the existing result
+                // If the current result is "0" and input is not ".", replace it
+                if (currentResultText == "0" && input != ".")
                 {
-                    binding.resultEditText.append(button.text)
+                    binding.resultEditText.setText(input)
+                }
+                else
+                {
+                    binding.resultEditText.append(input)
                 }
             }
         }
