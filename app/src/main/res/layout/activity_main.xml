@@ -70,14 +70,14 @@
         <Button
             android:id="@+id/deleteButton"
             style="@style/CalculatorButtonStyle"
-            android:backgroundTint="@color/bright_orange"
+
             android:tag="backspace"
             android:text="@string/delete_button_text"
             tools:ignore="ButtonStyle, TextContrastCheck,TextSizeCheck" />
 
         <Button
             android:id="@+id/divideButton"
-            style="@style/CalculatorButtonStyle"
+            style="@style/OperatorsButtonStyle"
             android:backgroundTint="@color/burnt_orange"
             android:tag="divide"
             android:text="@string/divide_button_text"
@@ -124,7 +124,7 @@
 
         <Button
             android:id="@+id/multiplyButton"
-            style="@style/CalculatorButtonStyle"
+            style="@style/OperatorsButtonStyle"
             android:backgroundTint="@color/burnt_orange"
             android:tag="multiply"
             android:text="@string/multiply_button_text"
@@ -171,7 +171,7 @@
 
         <Button
             android:id="@+id/minusButton"
-            style="@style/CalculatorButtonStyle"
+            style="@style/OperatorsButtonStyle"
             android:backgroundTint="@color/burnt_orange"
             android:tag="subtract"
             android:text="@string/minus_button_text"
@@ -217,7 +217,7 @@
 
         <Button
             android:id="@+id/plusButton"
-            style="@style/CalculatorButtonStyle"
+            style="@style/OperatorsButtonStyle"
             android:backgroundTint="@color/burnt_orange"
             android:tag="add"
             android:text="@string/plus_button_text"
@@ -264,7 +264,7 @@
 
         <Button
             android:id="@+id/equalsButton"
-            style="@style/CalculatorButtonStyle"
+            style="@style/EqualsButtonStyle"
             android:backgroundTint="@color/burnt_orange"
             android:tag="equals"
             android:text="@string/equals_button_text"

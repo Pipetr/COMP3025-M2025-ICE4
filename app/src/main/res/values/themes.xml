@@ -19,14 +19,21 @@
     </style>
 
     <style name="NumbersButtonStyle" parent="CalculatorButtonStyle">
-        <item name="android:buttonTint"> </item>
+        <item name="android:backgroundTint">@color/genButtonColor</item>
+        <item name="android:textColor">@color/black</item>
     </style>
 
     <style name="OperatorsButtonStyle" parent="CalculatorButtonStyle">
-
+        <item name="android:backgroundTint">@color/blueFunctionButton</item>
+        <item name="android:textColor">@color/white</item>
     </style>
 
     <style name="ModifiersButtonStyle" parent="CalculatorButtonStyle">
+        <item name="android:backgroundTint">@color/specialButtonColor</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
 
+    <style name="EqualsButtonStyle" parent="OperatorsButtonStyle">
+        <item name="android:backgroundTint">@color/equalsButtonColor</item>
     </style>
 </resources>
