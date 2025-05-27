@@ -53,63 +53,35 @@
 
         <Button
             android:id="@+id/percentButton"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_margin="@dimen/button_margin"
-            android:layout_weight="1"
+            style="@style/CalculatorButtonStyle"
             android:backgroundTint="@color/bright_orange"
-            android:fontFamily="@font/fa_solid_900"
-            android:padding="@dimen/zero"
             android:tag="percent"
             android:text="@string/percent_button_text"
-            android:textSize="@dimen/button_text_size"
-            app:cornerRadius="@dimen/button_corner_radius"
-            tools:ignore="ButtonStyle,TextContrastCheck,TextContrastCheck,TextContrastCheck" />
+            tools:ignore="ButtonStyle,TextContrastCheck,TextContrastCheck,TextContrastCheck,TextSizeCheck" />
 
         <Button
             android:id="@+id/clearButton"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_margin="@dimen/button_margin"
-            android:layout_weight="1"
+            style="@style/CalculatorButtonStyle"
             android:backgroundTint="@color/bright_orange"
-            android:fontFamily="@font/fa_solid_900"
-            android:padding="@dimen/zero"
             android:tag="clear"
             android:text="@string/clear_button_text"
-            android:textSize="@dimen/button_text_size"
-            app:cornerRadius="@dimen/button_corner_radius"
-            tools:ignore="ButtonStyle,TextContrastCheck" />
+            tools:ignore="ButtonStyle,TextContrastCheck,TextSizeCheck" />
 
         <Button
             android:id="@+id/deleteButton"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_margin="@dimen/button_margin"
-            android:layout_weight="1"
+            style="@style/CalculatorButtonStyle"
             android:backgroundTint="@color/bright_orange"
-            android:fontFamily="@font/fa_solid_900"
-            android:padding="@dimen/zero"
             android:tag="backspace"
             android:text="@string/delete_button_text"
-            android:textSize="@dimen/button_text_size"
-            app:cornerRadius="@dimen/button_corner_radius"
-            tools:ignore="ButtonStyle, TextContrastCheck" />
+            tools:ignore="ButtonStyle, TextContrastCheck,TextSizeCheck" />
 
         <Button
             android:id="@+id/divideButton"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_margin="@dimen/button_margin"
-            android:layout_weight="1"
+            style="@style/CalculatorButtonStyle"
             android:backgroundTint="@color/burnt_orange"
-            android:fontFamily="@font/fa_solid_900"
-            android:padding="@dimen/zero"
             android:tag="divide"
             android:text="@string/divide_button_text"
-            android:textSize="@dimen/button_text_size"
-            app:cornerRadius="@dimen/button_corner_radius"
-            tools:ignore="ButtonStyle" />
+            tools:ignore="ButtonStyle,TextSizeCheck" />
 
     </LinearLayout>
 
@@ -125,66 +97,38 @@
 
         <Button
             android:id="@+id/sevenButton"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_margin="@dimen/button_margin"
-            android:layout_weight="1"
+            style="@style/CalculatorButtonStyle"
             android:backgroundTint="@color/light_grey"
-            android:fontFamily="@font/fa_solid_900"
-            android:padding="@dimen/zero"
             android:tag="7"
             android:text="@string/seven_button_text"
             android:textColor="@color/black"
-            android:textSize="@dimen/button_text_size"
-            app:cornerRadius="@dimen/button_corner_radius"
-            tools:ignore="ButtonStyle" />
+            tools:ignore="ButtonStyle,TextSizeCheck" />
 
         <Button
             android:id="@+id/eightButton"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_margin="@dimen/button_margin"
-            android:layout_weight="1"
+            style="@style/CalculatorButtonStyle"
             android:backgroundTint="@color/light_grey"
-            android:fontFamily="@font/fa_solid_900"
-            android:padding="@dimen/zero"
             android:tag="8"
             android:text="@string/eight_button_text"
             android:textColor="@color/black"
-            android:textSize="@dimen/button_text_size"
-            app:cornerRadius="@dimen/button_corner_radius"
-            tools:ignore="ButtonStyle" />
+            tools:ignore="ButtonStyle,TextSizeCheck" />
 
         <Button
             android:id="@+id/nineButton"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_margin="@dimen/button_margin"
-            android:layout_weight="1"
+            style="@style/CalculatorButtonStyle"
             android:backgroundTint="@color/light_grey"
-            android:fontFamily="@font/fa_solid_900"
-            android:padding="@dimen/zero"
             android:tag="9"
             android:text="@string/nine_button_text"
             android:textColor="@color/black"
-            android:textSize="@dimen/button_text_size"
-            app:cornerRadius="@dimen/button_corner_radius"
-            tools:ignore="ButtonStyle" />
+            tools:ignore="ButtonStyle,TextSizeCheck" />
 
         <Button
             android:id="@+id/multiplyButton"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_margin="@dimen/button_margin"
-            android:layout_weight="1"
+            style="@style/CalculatorButtonStyle"
             android:backgroundTint="@color/burnt_orange"
-            android:fontFamily="@font/fa_solid_900"
-            android:padding="@dimen/zero"
             android:tag="multiply"
             android:text="@string/multiply_button_text"
-            android:textSize="@dimen/button_text_size"
-            app:cornerRadius="@dimen/button_corner_radius"
-            tools:ignore="ButtonStyle" />
+            tools:ignore="ButtonStyle,TextSizeCheck" />
 
     </LinearLayout>
 
@@ -200,66 +144,38 @@
 
         <Button
             android:id="@+id/fourButton"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_margin="@dimen/button_margin"
-            android:layout_weight="1"
+            style="@style/CalculatorButtonStyle"
             android:backgroundTint="@color/light_grey"
-            android:fontFamily="@font/fa_solid_900"
-            android:padding="@dimen/zero"
             android:tag="4"
             android:text="@string/four_button_text"
             android:textColor="@color/black"
-            android:textSize="@dimen/button_text_size"
-            app:cornerRadius="@dimen/button_corner_radius"
-            tools:ignore="ButtonStyle" />
+            tools:ignore="ButtonStyle,TextSizeCheck" />
 
         <Button
             android:id="@+id/fiveButton"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_margin="@dimen/button_margin"
-            android:layout_weight="1"
+            style="@style/CalculatorButtonStyle"
             android:backgroundTint="@color/light_grey"
-            android:fontFamily="@font/fa_solid_900"
-            android:padding="@dimen/zero"
             android:tag="5"
             android:text="@string/five_button_text"
             android:textColor="@color/black"
-            android:textSize="@dimen/button_text_size"
-            app:cornerRadius="@dimen/button_corner_radius"
-            tools:ignore="ButtonStyle" />
+            tools:ignore="ButtonStyle,TextSizeCheck" />
 
         <Button
             android:id="@+id/sixButton"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_margin="@dimen/button_margin"
-            android:layout_weight="1"
+            style="@style/CalculatorButtonStyle"
             android:backgroundTint="@color/light_grey"
-            android:fontFamily="@font/fa_solid_900"
-            android:padding="@dimen/zero"
             android:tag="6"
             android:text="@string/six_button_text"
             android:textColor="@color/black"
-            android:textSize="@dimen/button_text_size"
-            app:cornerRadius="@dimen/button_corner_radius"
-            tools:ignore="ButtonStyle" />
+            tools:ignore="ButtonStyle,TextSizeCheck" />
 
         <Button
             android:id="@+id/minusMinusButton"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_margin="@dimen/button_margin"
-            android:layout_weight="1"
+            style="@style/CalculatorButtonStyle"
             android:backgroundTint="@color/burnt_orange"
-            android:fontFamily="@font/fa_solid_900"
-            android:padding="@dimen/zero"
             android:tag="subtract"
             android:text="@string/minus_button_text"
-            android:textSize="@dimen/button_text_size"
-            app:cornerRadius="@dimen/button_corner_radius"
-            tools:ignore="ButtonStyle" />
+            tools:ignore="ButtonStyle,TextSizeCheck" />
     </LinearLayout>
 
     <LinearLayout
@@ -274,66 +190,38 @@
 
         <Button
             android:id="@+id/oneButton"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_margin="@dimen/button_margin"
-            android:layout_weight="1"
+            style="@style/CalculatorButtonStyle"
             android:backgroundTint="@color/light_grey"
-            android:fontFamily="@font/fa_solid_900"
-            android:padding="@dimen/zero"
             android:tag="1"
             android:text="@string/one_button_text"
             android:textColor="@color/black"
-            android:textSize="@dimen/button_text_size"
-            app:cornerRadius="@dimen/button_corner_radius"
-            tools:ignore="ButtonStyle" />
+            tools:ignore="ButtonStyle,TextSizeCheck" />
 
         <Button
             android:id="@+id/twoButton"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_margin="@dimen/button_margin"
-            android:layout_weight="1"
+            style="@style/CalculatorButtonStyle"
             android:backgroundTint="@color/light_grey"
-            android:fontFamily="@font/fa_solid_900"
-            android:padding="@dimen/zero"
             android:tag="2"
             android:text="@string/two_button_text"
             android:textColor="@color/black"
-            android:textSize="@dimen/button_text_size"
-            app:cornerRadius="@dimen/button_corner_radius"
-            tools:ignore="ButtonStyle" />
+            tools:ignore="ButtonStyle,TextSizeCheck" />
 
         <Button
             android:id="@+id/threeButton"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_margin="@dimen/button_margin"
-            android:layout_weight="1"
+            style="@style/CalculatorButtonStyle"
             android:backgroundTint="@color/light_grey"
-            android:fontFamily="@font/fa_solid_900"
-            android:padding="@dimen/zero"
             android:tag="3"
             android:text="@string/three_button_text"
             android:textColor="@color/black"
-            android:textSize="@dimen/button_text_size"
-            app:cornerRadius="@dimen/button_corner_radius"
-            tools:ignore="ButtonStyle" />
+            tools:ignore="ButtonStyle,TextSizeCheck" />
 
         <Button
             android:id="@+id/plusButton"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_margin="@dimen/button_margin"
-            android:layout_weight="1"
+            style="@style/CalculatorButtonStyle"
             android:backgroundTint="@color/burnt_orange"
-            android:fontFamily="@font/fa_solid_900"
-            android:padding="@dimen/zero"
             android:tag="add"
             android:text="@string/plus_button_text"
-            android:textSize="@dimen/button_text_size"
-            app:cornerRadius="@dimen/button_corner_radius"
-            tools:ignore="ButtonStyle" />
+            tools:ignore="ButtonStyle,TextSizeCheck" />
 
     </LinearLayout>
 
@@ -349,65 +237,38 @@
 
         <Button
             android:id="@+id/plusMinusButton"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_margin="@dimen/button_margin"
-            android:layout_weight="1"
+            style="@style/CalculatorButtonStyle"
             android:backgroundTint="@color/bright_orange"
-            android:fontFamily="@font/fa_solid_900"
-            android:padding="@dimen/zero"
             android:tag="plus_equals"
             android:text="@string/plus_minus_button_text"
-            android:textSize="@dimen/button_text_size"
-            app:cornerRadius="@dimen/button_corner_radius"
-            tools:ignore="ButtonStyle,TextContrastCheck" />
+            tools:ignore="ButtonStyle,TextContrastCheck,TextSizeCheck" />
 
         <Button
             android:id="@+id/zeroButton"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_margin="@dimen/button_margin"
-            android:layout_weight="1"
+            style="@style/CalculatorButtonStyle"
             android:backgroundTint="@color/light_grey"
-            android:fontFamily="@font/fa_solid_900"
-            android:padding="@dimen/zero"
             android:tag="0"
             android:text="@string/zero_button_text"
             android:textColor="@color/black"
-            android:textSize="@dimen/button_text_size"
-            app:cornerRadius="@dimen/button_corner_radius"
-            tools:ignore="ButtonStyle,DuplicateSpeakableTextCheck" />
+            tools:ignore="ButtonStyle,DuplicateSpeakableTextCheck,TextSizeCheck" />
 
         <Button
             android:id="@+id/decimalButton"
-            android:layout_width="wrap_content"
+            style="@style/CalculatorButtonStyle"
             android:layout_height="@dimen/button_layout_height"
-            android:layout_margin="@dimen/button_margin"
-            android:layout_weight="1"
             android:backgroundTint="@color/light_grey"
-            android:fontFamily="@font/fa_solid_900"
-            android:padding="@dimen/zero"
             android:tag="."
             android:text="@string/decimal_button_text"
             android:textColor="@color/black"
-            android:textSize="@dimen/button_text_size"
-            app:cornerRadius="@dimen/button_corner_radius"
             tools:ignore="ButtonStyle,TextSizeCheck" />
 
         <Button
             android:id="@+id/equalsButton"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_margin="@dimen/button_margin"
-            android:layout_weight="1"
+            style="@style/CalculatorButtonStyle"
             android:backgroundTint="@color/burnt_orange"
-            android:fontFamily="@font/fa_solid_900"
-            android:padding="@dimen/zero"
             android:tag="equals"
             android:text="@string/equals_button_text"
-            android:textSize="@dimen/button_text_size"
-            app:cornerRadius="@dimen/button_corner_radius"
-            tools:ignore="ButtonStyle" />
+            tools:ignore="ButtonStyle,TextSizeCheck" />
     </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
