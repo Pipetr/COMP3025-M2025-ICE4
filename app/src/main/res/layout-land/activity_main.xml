@@ -173,7 +173,7 @@
             tools:ignore="ButtonStyle,TextSizeCheck" />
 
         <Button
-            android:id="@+id/minusMinusButton"
+            android:id="@+id/minusButton"
             style="@style/CalculatorButtonStyle"
             android:backgroundTint="@color/burnt_orange"
             android:tag="subtract"
