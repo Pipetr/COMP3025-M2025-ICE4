@@ -5,4 +5,8 @@
     <color name="burnt_orange">#CC5500</color>
     <color name="light_grey">#C4C4C4</color>
     <color name="bright_orange">#FFA500</color>
+    <color name="blueFunctionButton">#68AFCD</color>
+    <color name="specialButtonColor">#EBB25D</color>
+    <color name="genButtonColor">#DCD5D5</color>
+    <color name="equalsButtonColor">#86CD68</color>
 </resources>

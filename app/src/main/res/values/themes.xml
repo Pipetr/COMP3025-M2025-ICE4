@@ -17,4 +17,16 @@
         <item name="android:textSize">@dimen/button_text_size</item>
         <item name="cornerRadius">@dimen/button_corner_radius</item>
     </style>
+
+    <style name="NumbersButtonStyle" parent="CalculatorButtonStyle">
+        <item name="android:buttonTint"> </item>
+    </style>
+
+    <style name="OperatorsButtonStyle" parent="CalculatorButtonStyle">
+
+    </style>
+
+    <style name="ModifiersButtonStyle" parent="CalculatorButtonStyle">
+
+    </style>
 </resources>
