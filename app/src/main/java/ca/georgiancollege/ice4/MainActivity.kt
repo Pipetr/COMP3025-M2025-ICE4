@@ -28,13 +28,13 @@ class MainActivity : AppCompatActivity()
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
             insets
         }
-        val numberButtons = listOf(
+        numberButtons = listOf(
             binding.zeroButton, binding.oneButton, binding.twoButton,
             binding.threeButton, binding.fourButton, binding.fiveButton,
             binding.sixButton, binding.sevenButton, binding.eightButton,
             binding.nineButton, binding.decimalButton
         )
-        val operatorButtons = listOf(
+        operatorButtons = listOf(
             binding.plusButton, binding.minusButton,
             binding.multiplyButton, binding.divideButton
         )
