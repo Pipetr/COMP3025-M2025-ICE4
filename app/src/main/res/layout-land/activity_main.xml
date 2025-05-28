@@ -37,7 +37,7 @@
             android:padding="@dimen/result_edit_text_padding"
             android:text="@string/result_default"
             android:textColor="@color/white"
-            android:textSize="@dimen/result_text_size"
+            android:textSize="@dimen/result_text_land_size"
             tools:ignore="LabelFor,VisualLintTextFieldSize" />
     </LinearLayout>
 
@@ -54,7 +54,7 @@
 
         <Button
             android:id="@+id/percentButton"
-            style="@style/ModifiersButtonStyle"
+            style="@style/ModifiersButtonStyleLand"
 
             android:tag="percent"
             android:text="@string/percent_button_text"
@@ -62,7 +62,7 @@
 
         <Button
             android:id="@+id/clearButton"
-            style="@style/ModifiersButtonStyle"
+            style="@style/ModifiersButtonStyleLand"
 
             android:tag="clear"
             android:text="@string/clear_button_text"
@@ -70,7 +70,7 @@
 
         <Button
             android:id="@+id/deleteButton"
-            style="@style/ModifiersButtonStyle"
+            style="@style/ModifiersButtonStyleLand"
 
             android:tag="backspace"
             android:text="@string/delete_button_text"
@@ -78,7 +78,7 @@
 
         <Button
             android:id="@+id/divideButton"
-            style="@style/OperatorsButtonStyle"
+            style="@style/OperatorsButtonStyleLand"
 
             android:tag="divide"
             android:text="@string/divide_button_text"
@@ -99,7 +99,7 @@
 
         <Button
             android:id="@+id/sevenButton"
-            style="@style/NumbersButtonStyle"
+            style="@style/NumbersButtonStyleLand"
 
             android:tag="7"
             android:text="@string/seven_button_text"
@@ -108,7 +108,7 @@
 
         <Button
             android:id="@+id/eightButton"
-            style="@style/NumbersButtonStyle"
+            style="@style/NumbersButtonStyleLand"
 
             android:tag="8"
             android:text="@string/eight_button_text"
@@ -117,7 +117,7 @@
 
         <Button
             android:id="@+id/nineButton"
-            style="@style/NumbersButtonStyle"
+            style="@style/NumbersButtonStyleLand"
 
             android:tag="9"
             android:text="@string/nine_button_text"
@@ -126,7 +126,7 @@
 
         <Button
             android:id="@+id/multiplyButton"
-            style="@style/OperatorsButtonStyle"
+            style="@style/OperatorsButtonStyleLand"
 
             android:tag="multiply"
             android:text="@string/multiply_button_text"
@@ -147,7 +147,7 @@
 
         <Button
             android:id="@+id/fourButton"
-            style="@style/NumbersButtonStyle"
+            style="@style/NumbersButtonStyleLand"
 
             android:tag="4"
             android:text="@string/four_button_text"
@@ -156,7 +156,7 @@
 
         <Button
             android:id="@+id/fiveButton"
-            style="@style/NumbersButtonStyle"
+            style="@style/NumbersButtonStyleLand"
 
             android:tag="5"
             android:text="@string/five_button_text"
@@ -165,7 +165,7 @@
 
         <Button
             android:id="@+id/sixButton"
-            style="@style/NumbersButtonStyle"
+            style="@style/NumbersButtonStyleLand"
 
             android:tag="6"
             android:text="@string/six_button_text"
@@ -174,7 +174,7 @@
 
         <Button
             android:id="@+id/minusButton"
-            style="@style/OperatorsButtonStyle"
+            style="@style/OperatorsButtonStyleLand"
 
             android:tag="subtract"
             android:text="@string/minus_button_text"
@@ -194,7 +194,7 @@
 
         <Button
             android:id="@+id/oneButton"
-            style="@style/NumbersButtonStyle"
+            style="@style/NumbersButtonStyleLand"
 
             android:tag="1"
             android:text="@string/one_button_text"
@@ -203,7 +203,7 @@
 
         <Button
             android:id="@+id/twoButton"
-            style="@style/NumbersButtonStyle"
+            style="@style/NumbersButtonStyleLand"
 
             android:tag="2"
             android:text="@string/two_button_text"
@@ -212,7 +212,7 @@
 
         <Button
             android:id="@+id/threeButton"
-            style="@style/NumbersButtonStyle"
+            style="@style/NumbersButtonStyleLand"
 
             android:tag="3"
             android:text="@string/three_button_text"
@@ -221,7 +221,7 @@
 
         <Button
             android:id="@+id/plusButton"
-            style="@style/OperatorsButtonStyle"
+            style="@style/OperatorsButtonStyleLand"
 
             android:tag="add"
             android:text="@string/plus_button_text"
@@ -242,7 +242,7 @@
 
         <Button
             android:id="@+id/plusMinusButton"
-            style="@style/ModifiersButtonStyle"
+            style="@style/ModifiersButtonStyleLand"
 
             android:tag="plus_equals"
             android:text="@string/plus_minus_button_text"
@@ -250,7 +250,7 @@
 
         <Button
             android:id="@+id/zeroButton"
-            style="@style/NumbersButtonStyle"
+            style="@style/NumbersButtonStyleLand"
 
             android:tag="0"
             android:text="@string/zero_button_text"
@@ -259,8 +259,8 @@
 
         <Button
             android:id="@+id/decimalButton"
-            style="@style/NumbersButtonStyle"
-            android:layout_height="@dimen/button_layout_height"
+            style="@style/NumbersButtonStyleLand"
+            android:layout_height="@dimen/button_layout_land_height"
 
             android:tag="."
             android:text="@string/decimal_button_text"
@@ -269,7 +269,7 @@
 
         <Button
             android:id="@+id/equalsButton"
-            style="@style/EqualsButtonStyle"
+            style="@style/EqualsButtonStyleLand"
 
             android:tag="equals"
             android:text="@string/equals_button_text"
