@@ -39,13 +39,14 @@ class MainActivity : AppCompatActivity()
         )
         operatorButtons = listOf(
             binding.plusButton, binding.minusButton,
-            binding.multiplyButton, binding.divideButton
+            binding.multiplyButton, binding.divideButton,
         )
         modifierButtons = listOf(
             binding.percentButton, binding.plusMinusButton,
-            binding.clearButton, binding.deleteButton
+            binding.clearButton, binding.deleteButton,
         )
         configureNumberInput()
+        configureModifierButton()
     }
 
     private fun configureNumberInput()
@@ -72,6 +73,29 @@ class MainActivity : AppCompatActivity()
                     binding.resultEditText.append(input)
                 }
             }
+        }
+    }
+
+    private fun configureModifierButton(){
+        modifierButtons.forEach { button ->
+            when(button.tag.toString()){
+                "backspace" -> button.setOnClickListener {
+                    val currentResultText = binding.resultEditText.text.toString()
+                    if(currentResultText.length == 1){
+                        if (currentResultText == "0"){
+                            return@setOnClickListener
+                        }else{
+                            binding.resultEditText.setText("0")
+                        }
+                    }else{
+                        binding.resultEditText.setText(currentResultText.dropLast(1))
+                    }
+                }
+                "clear" -> button.setOnClickListener {
+                    binding.resultEditText.setText("0")
+                }
+            }
+
         }
     }
 }
