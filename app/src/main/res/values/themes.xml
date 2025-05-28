@@ -18,9 +18,6 @@
         <item name="cornerRadius">@dimen/button_corner_radius</item>
     </style>
 
-    <!-- TODO:
-    Add here the style, inheriting from original -->
-
     <style name="CalculatorButtonStyleLand" parent="CalculatorButtonStyle">
         <item name="android:layout_height">@dimen/button_layout_land_height</item>
         <item name="android:textSize">@dimen/button_text_land_size</item>
